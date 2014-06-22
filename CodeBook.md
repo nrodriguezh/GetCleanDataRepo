@@ -2,14 +2,14 @@ Project for Getting and Cleaning Data
 ===
 
 
-CodeBook for "tidydataout.txt"
+CodeBook for "tidydataoutput.txt"
 
 
 ___
 
-The following highlights the variables of "tidydataout.txt" created by the "run_analysis.R" script. Note that in addition to this markdown document, a complete explication of the "run_analysis.R" script is available in README.md file. Furthermore, "run_analysis.R" script includes step by step comments.
+The following highlights the variables of "tidydataout.txt" created by the "run_analysis.R" script. 
 
-About "tidydataout.txt", note that while the file has the .txt extension, it is actually formatted as a .csv.
+About "tidydataoutput.txt":
 
     1. activity: factor with 6 levels, in order: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING, indicated the activity being perfomed at the moment of data gathering,
 
@@ -21,7 +21,7 @@ About "tidydataout.txt", note that while the file has the .txt extension, it is 
         * -XYZ: the three dimensional axis, X,Y, or Z, respectiveli (3-axial)
         * Body and Gravity: Acceleratuion signal source, Body or Gravity, determined using low pass Butterworth filter with a corner frequency of 0.3 Hz. 
         * -mean() and -std(): Mean value or Standard deviation, respectively.
-        * t of f: t denotes time domain signals, these were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. On the other hand, f denotes the use of a Fast Fourier Transform (FFT) was applied.
+        * t or f: t denotes time domain signals, these were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. f denotes the use of a Fast Fourier Transform (FFT) was applied.
     
     3. tBodyAcc-mean()-X
     4. tBodyAcc-mean()-Y
