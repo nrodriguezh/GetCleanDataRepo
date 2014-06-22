@@ -2,7 +2,7 @@ GetCleanDataRepo
 ================
 
 Project for Getting and Cleaning Data 
-================
+
 
 README for "run_analysis.R"
 ===
